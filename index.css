@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap');
+
+
+ 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+.page1{
+    position: relative;
+    min-height: 120vh;
+    text-align: center;
+    background: url(images/photo_2024-09-27\ 16.26.06.jpeg);
+    height: 100%;
+    width: 100%;
+}
+
+.text{
+    color:#e58a12;
+    text-shadow: 10px 5px 5px 10px;
+    font-size: 50px;
+    position: relative;
+    right: 510px;
+    bottom: 180px;
+    font-weight: bold;
+    transition: color 2s;
+}
+
+.text:hover{
+    color: rgb(16, 27, 147);
+    cursor: pointer;
+}
+
+
+.kara{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 400px;
+    height: 350px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 160px;
+    color: #e58a12;
+    border-radius: 20px;
+    box-shadow: black 0px 10px 10px 10px;
+}
+
+.go{
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.birge{
+    display: flex;
+    flex-direction: row;
+}
+
+.logo img{
+    border-radius: 20px;
+}
+
+.jazu{
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.go a{
+    color: #e58a12;
+}
+
+.search{
+    background-color: #e58a12;
+    width: 130px;
+    height: 20px;
+    border-radius: 10px;
+    border-style: none;
+
+}
+.jazu ::placeholder{
+    color: white;
+}
+
+
+.page2{
+    text-align: center;
+    background: url(https://images.mubicdn.net/images/film/26832/cache-18264-1649665869/image-w1280.jpg?size=800x);
+    background-size: cover;
+    height: 900px;
+    width: 1500px;
+}
+
+
+.starting{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100px;
+    gap: 60px;
+    font-size: 30px;
+    position: absolute;
+    padding: 15px;
+    margin-left: 50px;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.soz{
+    font-size: 50px;
+    color: white;
+    margin-right: 900px;
+    margin-top: 200px;
+    font-weight: bold;
+}
+
+.all{
+    padding: 30px;
+    margin-top: 350px;
+}
+
+.word{
+    color: rgb(69, 67, 67);
+    margin-right: 900px;
+    padding: 20px;
+    background-color: rgb(214, 217, 212);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.themost .the{
+    margin-left: 50px;
+    padding: 30px;
+    color: white;
+}
+
+.more{
+    background-color: white;
+    width: 200px;
+    height: 50px;
+}
+
+
+.serials{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-left: 60px;
+    row-gap: 50px;
+    padding-bottom: 70px;
+}
+
+.themost{
+    background-color: #263022df;
+}
+
+.serials img{
+    box-shadow: 1px 1px 15px 1px black;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    transition: 1.2s;
+}
+
+a:hover{
+    background-color: rgb(77, 76, 76);
+    transform: scale(1.04);
+}
+
+.starting img{
+    margin-top: 3px;
+}
+
+.titanic:hover{
+    background-image: url('images/Снимок экрана 2024-09-29 в 18.55.35.jpg');
+}
+
+.page3{
+    background-color: #263022df;
+    width: 1300px;
+    height: 4500px;
+}
+
+
+.orta{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-left: 100px;
+}
+
+.kazakh{
+    margin-top: 100px;
+    padding: 20px;
+}
+
+.turkish{
+    margin-top: 100px;
+    padding: 20px;
+}
+
+.first{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    color: beige;
+}
+
+
+
+
+.both{
+    color: beige;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.info{
+    margin-top: 40px;
+    font-size: 30px;
+}
+
+.both img{
+    box-shadow: 1px 1px 15px 1px rgb(0, 0, 0);
+}
+
+input{
+    width: 300px;
+    height: 30px;
+}
+
+.container-contact {
+    background: url(https://dnm.nflximg.net/api/v6/BvVbc2Wxr2w6QuoANoSpJKEIWjQ/AAAAQdHbjrX0uL1mH7uUW7VZ-p5GJOSNNRko_9A_12Mlv5wVYQIDy4nuupxLHxkDj9V0e1OLBs_s8ZlxFkyhPlK5XkrlTK0c7yP42LLinQdYhz8lqfgUcOH68JAbEcY45jG02gCI1NyKVf1lqxsQFmcNN5szbv8.jpg?r=aee) ;
+    background-size: cover;
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.end{
+    display: flex;
+    flex-direction: row;
+    gap: 120px;
+    padding: 40px;
+    background-color: beige;
+    margin-top: 20px;
+    height: 250px;
+    border: 2px solid rgb(227, 202, 167);
+    font-size: 20px;
+    color: rgb(95, 66, 66);
+}
+
+.end a{
+    color: rgb(95, 66, 66);
+}
+
+.btn-submit{
+    width: 120px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: #263022df;
+    color: white;
+}
+
+.last{
+    margin-left: 200px;
+    margin-top: 80px;
+    color: rgb(95, 66, 66);
+}
+
+
+body {
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+    font-family: "Gowun Batang", serif;
+    background-color:#2c4e2fdf ;
+}
+
+.container-contact {
+    max-width: 600px;
+    margin: auto;
+    background: beige;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    color: #555;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.both p{
+    color: beige;
+}
+
+.both h1{
+    color: beige;
+}
+
+summary{
+    color:beige
+}
+
+
+
+@media (max-width: 768px) {
+    .page1 {
+        height: auto;
+    }
+
+    .text {
+        font-size: 30px; 
+        right: 0; 
+        bottom: 50px; 
+        transition: color 1s; 
+    }
+
+    .kara {
+        width: 90%; 
+        height: auto; 
+        margin: 0 auto; 
+    }
+
+    .starting {
+        flex-direction: column; 
+        align-items: center; 
+        margin-left: 0; 
+        padding: 10px; 
+    }
+
+    .soz {
+        margin-right: 0; 
+        margin-top: 20px; 
+    }
+
+    .all {
+        margin-top: 50px; 
+    }
+
+    .serials {
+        grid-template-columns: repeat(2, 1fr); 
+        margin-left: 0; 
+        row-gap: 30px; 
+    }
+
+    .info {
+        font-size: 24px; 
+    }
+
+    .end {
+        flex-direction: column; 
+        align-items: center; 
+        padding: 20px; 
+    }
+
+    .btn-submit {
+        width: 100%; 
+        margin-top: 10px; 
+    }
+}
+
+
